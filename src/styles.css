@@ -1,0 +1,89 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: inherit;
+}
+.wrap{
+    width: 970px;
+    margin: auto;
+}
+.wrap img{
+    width: 100px;
+}
+.header{
+    padding: 15px 5px;
+    margin: 0 -15px 15px;
+}
+.menu ul{
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu li{
+    padding-right: 15px;
+    font-size: small;
+}
+.cart img{
+    width: 24px;
+}
+.cart{
+    position: relative;
+}
+.cart span{
+    position: absolute;
+    top: 5px;
+    left: 14px;
+    background-color: lightgreen;
+    color: green;
+    display: inline-block;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: small;
+}
+.logout{
+    color: gray;
+    text-decoration: none;
+    font-size: small;
+}
+.card{
+    width: 230px;
+    margin-bottom:30px;
+}
+.card img{
+    height: auto;
+    width: 80%;
+
+}
+.card-image{
+    height: 230px;
+    text-align: center;
+}
+.card-info{
+    padding: 15px;
+}
+.title{
+    font-size: 18px;
+}
+.price{
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0 0 15px 0;
+}
+.card-button{
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+    background-color: #003399;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.card:hover{
+    box-shadow: -15px -9px 16px -8px lightgrey;
+}
+
